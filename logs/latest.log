@@ -1,399 +1,206 @@
-[16:09:33] [Server thread/INFO]: Starting minecraft server version 1.14.3
-[16:09:33] [Server thread/INFO]: Loading properties
-[16:09:33] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-5e4e7f3-2349feb (MC: 1.14.3) (Implementing API version 1.14.3-R0.1-SNAPSHOT)
-[16:09:33] [Server thread/INFO]: Debug logging is disabled
-[16:09:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:09:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:09:33] [Server thread/INFO]: Default game type: SURVIVAL
-[16:09:33] [Server thread/INFO]: Generating keypair
-[16:09:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:09:34] [Server thread/INFO]: Using default channel type
-[16:09:37] [Server thread/WARN]: Plugin UltimateAntiCheat v0.1.6 does not specify an api-version.
-[16:09:37] [Server thread/WARN]: Plugin SilkSpawners v5.0.2 does not specify an api-version.
-[16:09:37] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.0.6
-[16:09:37] [Server thread/INFO]: [ChopTree2] Loading ChopTree2 v1.14.2-2.4.3
-[16:09:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0;214af8a
-[16:09:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6125ca63]
-[16:09:38] [Server thread/INFO]: [UAC] Loading UltimateAntiCheat v0.1.6
-[16:09:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[16:09:38] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v5.0.2
-[16:09:38] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.14.0
-[16:09:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0;214af8a
-[16:09:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:09:38] [Server thread/WARN]: [WorldEdit] ====================================================
-[16:09:38] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
-[16:09:38] [Server thread/WARN]: [WorldEdit]  as your server software. 
-[16:09:38] [Server thread/WARN]: [WorldEdit]   
-[16:09:38] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
-[16:09:38] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
-[16:09:38] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
-[16:09:38] [Server thread/WARN]: [WorldEdit]   
-[16:09:38] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[16:09:38] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
-[16:09:38] [Server thread/WARN]: [WorldEdit]   
-[16:09:38] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
-[16:09:38] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[16:09:38] [Server thread/WARN]: [WorldEdit]   
-[16:09:38] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[16:09:38] [Server thread/WARN]: [WorldEdit] ====================================================
-[16:09:38] [Server thread/INFO]: Preparing level "world"
-[16:09:38] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[16:09:38] [Server thread/INFO]: Loaded 6 recipes
-[16:09:38] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:09:38] [Server thread/INFO]: View Distance: 30
-[16:09:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:09:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:09:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:09:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:09:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:09:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:09:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:09:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:09:38] [Server thread/INFO]: Mob Spawn Range: 6
-[16:09:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:09:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:09:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:09:38] [Server thread/INFO]: Max TNT Explosions: 100
-[16:09:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:09:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:09:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2 as the Bukkit adapter
-[16:09:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:09:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:09:39] [Server thread/INFO]: View Distance: 30
-[16:09:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:09:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:09:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:09:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:09:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:09:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:09:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:09:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:09:39] [Server thread/INFO]: Mob Spawn Range: 6
-[16:09:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:09:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:09:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:09:39] [Server thread/INFO]: Max TNT Explosions: 100
-[16:09:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:09:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:09:39] [Server thread/INFO]: View Distance: 30
-[16:09:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:09:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:09:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:09:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:09:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:09:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:09:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:09:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:09:39] [Server thread/INFO]: Mob Spawn Range: 6
-[16:09:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:09:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:09:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:09:39] [Server thread/INFO]: Max TNT Explosions: 100
-[16:09:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:09:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:09:39] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[16:09:40] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:40] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:40] [Server thread/INFO]: Preparing spawn area: 83%
-[16:09:40] [Server thread/INFO]: Time elapsed: 1120 ms
-[16:09:40] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[16:09:41] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:41] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:41] [Server-Worker-6/INFO]: Preparing spawn area: 99%
-[16:09:41] [Server thread/INFO]: Time elapsed: 1044 ms
-[16:09:41] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[16:09:41] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:41] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[16:09:42] [Server thread/INFO]: Time elapsed: 714 ms
-[16:09:42] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.0.6
-[16:09:42] [Server thread/INFO]: [ClearLag] Loading modules...
-[16:09:42] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[16:09:42] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[16:09:42] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[16:09:42] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.14]...
-[16:09:42] [Server thread/INFO]: [ChopTree2] Enabling ChopTree2 v1.14.2-2.4.3
-[16:09:42] [Server thread/INFO]: [UAC] Enabling UltimateAntiCheat v0.1.6
-[16:09:42] [Server thread/INFO]: [UAC] UAC was enabled...
-[16:09:42] [Server thread/INFO]: [UAC] Registering events...
-[16:09:42] [Server thread/INFO]: [UAC] Submitting stats to mcstats.org...
-[16:09:42] [Server thread/INFO]: [UAC] Registering Commands
-[16:09:42] [Server thread/INFO]: [UAC] Done with Startup!
-[16:09:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[16:09:42] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[16:09:42] [Server thread/INFO]: No kits found to migrate.
-[16:09:42] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[16:09:42] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[16:09:42] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[16:09:42] [Server thread/INFO]: Loaded 20977 items from items.json.
-[16:09:42] [Server thread/INFO]: Using locale en_US
-[16:09:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:09:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:09:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[16:09:42] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v5.0.2
-[16:09:42] [Thread-9/INFO]: [ClearLag] No updates found!
-[16:09:42] [Server thread/INFO]: [SilkSpawners] This version of the plugin is NOT compatible with your Minecraft version!
-[16:09:42] [Server thread/INFO]: [SilkSpawners] Please check your versions to make sure they match!
-[16:09:42] [Server thread/INFO]: [SilkSpawners] Disabling now!
-[16:09:42] [Server thread/INFO]: [SilkSpawners] Compatible versions are: [v1_5_R1, v1_5_R2, v1_5_R3, v1_6_R1, v1_6_R2, v1_6_R3, v1_7_R1, v1_7_R2, v1_7_R3, v1_7_R4, v1_8_R1, v1_8_R2, v1_8_R3, v1_9_R1, v1_9_R2, v1_10_R1, v1_11_R1, v1_12_R1]
-[16:09:42] [Server thread/INFO]: [SilkSpawners] Your version is: v1_14_R1
-[16:09:42] [Server thread/INFO]: [SilkSpawners] You can disable this check by setting testMCVersion to false in the config!
-[16:09:42] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.14.0
-[16:09:42] [Server thread/INFO]: [VeinMiner] Registering events
-[16:09:42] [Server thread/INFO]: [VeinMiner] Registering commands
-[16:09:42] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[16:09:42] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
-[16:09:42] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[16:09:42] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
-[16:09:42] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[16:09:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:09:42] [ForkJoinPool.commonPool-worker-9/INFO]: [VeinMiner] Your version of VeinMiner (1.14.0) is up to date!
-[16:09:42] [Server thread/INFO]: Done (4.561s)! For help, type "help"
-[16:09:51] [User Authenticator #1/INFO]: UUID of player subtora is a4aa75f4-b844-444a-a24a-ae909cf2342a
-[16:09:51] [Server thread/INFO]: subtora[/192.168.95.1:55080] logged in with entity id 31 at ([world]2938.968430888869, 82.24178841451243, 565.7284562860299)
-[16:14:50] [Server thread/WARN]: subtora moved too quickly! -6.071903472128724,1.0,8.100249408834316
-[16:14:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7841ms or 156 ticks behind
-[16:17:52] [Server thread/INFO]: subtora issued server command: /home
-[16:17:52] [Server thread/WARN]: subtora moved too quickly! -2227.9648282392886,3.467722865229689,-29.90553392978461
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.355275520947316,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: subtora moved too quickly! -57.38606707578765,0.0,1.8495365092567795
-[16:19:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5282ms or 105 ticks behind
-[16:45:49] [Server thread/INFO]: subtora issued server command: //wand
-[16:46:10] [Server thread/INFO]: subtora issued server command: /setblock ~ ~ ~ minecraft:dirt
-[16:46:10] [Server thread/INFO]: [subtora: Changed the block at 680, 67, 518]
-[16:46:15] [Server thread/INFO]: subtora issued server command: //replace air
-[16:46:27] [Server thread/INFO]: subtora issued server command: //fixwater 50
-[16:49:44] [Server thread/INFO]: subtora issued server command: //sphere air 6
-[16:49:56] [Server thread/INFO]: subtora issued server command: //fixwater 50
-[16:50:28] [Server thread/INFO]: subtora issued server command: //sphere minecraft:stone_bricks 4
-[17:09:45] [User Authenticator #2/INFO]: UUID of player Silvention is 442c52f2-f02a-47bf-ae55-5f9ea766c597
-[17:09:45] [Server thread/INFO]: Silvention[/208.82.235.2:51616] logged in with entity id 15240 at ([world]686.0295297998315, 63.0, 501.5494953217699)
-[17:09:49] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> hey![m
-[17:09:55] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> Hey[m
-[17:10:11] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> oh yeah come see[m
-[17:10:22] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> Oooo nice[m
-[17:11:00] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> I was moving some stuff earlier and skyblock is under maitnence right now :([m
-[17:11:00] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> also i accidentally killed all the animals again[m
-[17:11:05] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> Hahaha[m
-[17:11:14] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> like every animal in the world[m
-[17:11:21] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> Her cat?[m
-[17:11:27] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> ... yes[m
-[17:11:39] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> it was... an accident haha[m
-[17:11:40] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> HAHA so that's not even her cat[m
-[17:11:50] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> i had to train it ok[m
-[17:12:03] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> it looks more like phil anyways[m
-[17:12:09] [Async Chat Thread - #0/INFO]: <[0;31;22mSilvention[m> She is going to try and get it to stand and it won't listen to her[m
-[17:12:26] [Async Chat Thread - #0/INFO]: <[0;31;22msubtora[m> haha but cats are nortorious for doing that even if its yours[m
-[17:12:58] [Server thread/INFO]: subtora issued server command: //brush lower sphere 5
-[17:13:34] [Async Chat Thread - #1/INFO]: <[0;31;22mSilvention[m> My turtles hatched and then died[m
-[17:13:38] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> noooo[m
-[17:14:01] [Server thread/INFO]: Silvention issued server command: //drain 25
-[17:14:04] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> give it a sec[m
-[17:14:15] [Server thread/INFO]: Silvention issued server command: //drain 25
-[17:14:20] [Server thread/INFO]: subtora issued server command: //fixwater 100
-[17:14:26] [Server thread/INFO]: subtora issued server command: //fixwater 100
-[17:14:39] [Server thread/INFO]: Silvention issued server command: //fixwater 100
-[17:14:43] [Server thread/INFO]: subtora issued server command: //fixwater 100
-[17:14:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6464ms or 129 ticks behind
-[17:14:46] [Server thread/WARN]: Silvention moved too quickly! -11.657223125001906,0.0,-2.3944032725003126
-[17:14:49] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> there we go[m
-[17:14:55] [Server thread/INFO]: Silvention issued server command: /weather clear 100000
-[17:15:02] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> im going to change it to sand and dirt too[m
-[17:15:05] [Server thread/WARN]: Silvention moved too quickly! 10.3239331620764,0.001335979112141672,1.5559525786208042
-[17:15:05] [Server thread/WARN]: subtora moved too quickly! -2.2275660073872814,0.0,-9.90308858187791
-[17:15:15] [Async Chat Thread - #1/INFO]: <[0;31;22mSilvention[m> The ocean?[m
-[17:15:21] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> no just this area[m
-[17:15:46] [Server thread/INFO]: Silvention issued server command: /mob bat,dolphin
-[17:16:02] [Server thread/INFO]: Silvention issued server command: /mob bat,dolphin
-[17:16:07] [Server thread/INFO]: Silvention issued server command: /mob bat,dolphin
-[17:16:11] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> wait... hmm itll change all the water blocks too right[m
-[17:16:24] [Async Chat Thread - #1/INFO]: <[0;31;22mSilvention[m> Yeah[m
-[17:16:29] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> crap ok[m
-[17:16:39] [Server thread/INFO]: subtora issued server command: //drain 100
-[17:16:39] [Async Chat Thread - #1/INFO]: <[0;31;22mSilvention[m> Are you just wanting to change all the stone and gravel?[m
-[17:16:47] [Server thread/INFO]: subtora issued server command: //undo
-[17:16:52] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> yeah[m
-[17:17:05] [Async Chat Thread - #1/INFO]: <[0;31;22msubtora[m> change stone to sand if you can[m
-[17:17:14] [Server thread/INFO]: Silvention issued server command: //replacenear 25 stone sand
-[17:17:28] [Server thread/INFO]: Silvention issued server command: //replacenear gravel dirt
-[17:17:36] [Server thread/INFO]: Silvention issued server command: //replacenear 25 gravel dirt
-[17:18:00] [Server thread/INFO]: subtora issued server command: //replacenear minecraft:stone minecraft:sand
-[17:18:13] [Server thread/INFO]: Silvention issued server command: //replacenear 25 andesite,diorite,granite,coal_ore,iron_ore sand
-[17:18:24] [Async Chat Thread - #2/INFO]: <[0;31;22msubtora[m> sweet![m
-[17:18:32] [Server thread/INFO]: Silvention issued server command: //replacenear 25 andesite,diorite,granite,coal_ore,iron_ore sand
-[17:18:34] [Server thread/INFO]: Silvention issued server command: //replacenear 25 gravel dirt
-[17:18:38] [Server thread/INFO]: Silvention issued server command: //replacenear 25 stone sand
-[17:18:43] [Server thread/INFO]: Silvention issued server command: //replacenear 25 stone sand
-[17:18:46] [Server thread/INFO]: Silvention issued server command: //replacenear 25 gravel dirt
-[17:18:49] [Server thread/INFO]: Silvention issued server command: //replacenear 25 andesite,diorite,granite,coal_ore,iron_ore sand
-[17:18:58] [Server thread/INFO]: Silvention issued server command: //replacenear 25 andesite,diorite,granite,coal_ore,iron_ore sand
-[17:19:00] [Server thread/INFO]: Silvention issued server command: //replacenear 25 gravel dirt
-[17:19:04] [Server thread/INFO]: Silvention issued server command: //replacenear 25 stone sand
-[17:19:11] [Async Chat Thread - #2/INFO]: <[0;31;22mSilvention[m> There we go[m
-[17:19:17] [Server thread/INFO]: subtora issued server command: //brush smooth #existing
-[17:19:27] [Async Chat Thread - #2/INFO]: <[0;31;22msubtora[m> haha[m
-[17:19:38] [Server thread/INFO]: subtora issued server command: //drain 150
-[17:19:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
-[17:19:44] [Async Chat Thread - #2/INFO]: <[0;31;22mSilvention[m> The command I used was //replacenear <Radius> <Block to change> <New block> btw[m
-[17:20:09] [Server thread/INFO]: Silvention issued server command: //wand
-[17:20:09] [Server thread/WARN]: subtora moved too quickly! -9.290424462288115,0.0,-9.394115395125482
-[17:20:23] [Server thread/INFO]: Silvention issued server command: //replace air
-[17:20:30] [Server thread/INFO]: Silvention issued server command: //fixwater 50
-[17:20:33] [Server thread/INFO]: subtora issued server command: //undo
-[17:20:42] [Server thread/INFO]: Silvention issued server command: //fixwater 50
-[17:20:46] [Server thread/INFO]: Silvention issued server command: //fixwater 50
-[17:21:10] [Server thread/INFO]: Silvention issued server command: //set dirt
-[17:21:24] [Server thread/INFO]: Silvention issued server command: /brush smooth 5
-[17:21:32] [Server thread/INFO]: Silvention issued server command: //undo
-[17:21:40] [Server thread/INFO]: subtora issued server command: //set sand
-[17:21:41] [Server thread/INFO]: Silvention issued server command: //undo
-[17:21:52] [Server thread/INFO]: subtora issued server command: //set sand
-[17:22:12] [Server thread/INFO]: subtora issued server command: //set air
-[17:22:41] [Server thread/INFO]: Silvention lost connection: Timed out
-[17:22:41] [Server thread/INFO]: Silvention left the game
-[17:23:18] [User Authenticator #3/INFO]: UUID of player Silvention is 442c52f2-f02a-47bf-ae55-5f9ea766c597
-[17:23:19] [Server thread/INFO]: Silvention[/208.82.235.2:51831] logged in with entity id 32803 at ([world]649.2670447606655, 75.5, 473.3642172229845)
-[17:23:30] [Server thread/INFO]: subtora issued server command: //brush paint sphere sand
-[17:23:33] [Async Chat Thread - #3/INFO]: <[0;31;22mSilvention[m> Welp[m
-[17:23:37] [Server thread/INFO]: subtora issued server command: //brush paint sphere set minecraft:sand
-[17:23:40] [Async Chat Thread - #3/INFO]: <[0;31;22mSilvention[m> Ruined my house and then crashed[m
-[17:23:41] [Server thread/INFO]: Silvention issued server command: //undo
-[17:23:48] [Async Chat Thread - #3/INFO]: <[0;31;22msubtora[m> haha in sky[m
-[17:23:52] [Async Chat Thread - #3/INFO]: <[0;31;22mSilvention[m> Luckily it let me undo it still[m
-[17:24:27] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:30] [Server thread/INFO]: Silvention issued server command: //undo
-[17:24:32] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:32] [Server thread/INFO]: Silvention issued server command: //undo
-[17:24:33] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:34] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:34] [Server thread/INFO]: Silvention issued server command: //undo
-[17:24:34] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:35] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:36] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:37] [Server thread/INFO]: subtora issued server command: //undo
-[17:24:38] [Server thread/INFO]: subtora issued server command: //undo
-[17:25:11] [Server thread/INFO]: subtora issued server command: //undo
-[17:25:14] [Server thread/INFO]: subtora issued server command: //undo
-[17:25:15] [Server thread/INFO]: subtora issued server command: //undo
-[17:25:48] [Async Chat Thread - #4/INFO]: <[0;31;22mSilvention[m> I like my new house design[m
-[17:25:57] [Server thread/INFO]: Silvention issued server command: //undo
-[17:26:02] [Async Chat Thread - #4/INFO]: <[0;31;22msubtora[m> woah haha[m
-[17:26:08] [Async Chat Thread - #4/INFO]: <[0;31;22msubtora[m> what the heck[m
-[17:26:13] [Async Chat Thread - #4/INFO]: <[0;31;22mSilvention[m> That's what happens when you smooth your house[m
-[17:26:15] [Server thread/INFO]: Silvention issued server command: //undo
-[17:26:19] [Async Chat Thread - #4/INFO]: <[0;31;22msubtora[m> look at this[m
-[17:26:32] [Server thread/INFO]: subtora issued server command: //schem list
-[17:26:38] [Async Chat Thread - #4/INFO]: <[0;31;22msubtora[m> wait[m
-[17:26:50] [Server thread/INFO]: Silvention issued server command: //undo
-[17:26:57] [Server thread/INFO]: Silvention issued server command: //undo
-[17:27:04] [Server thread/INFO]: subtora issued server command: //schem list
-[17:27:15] [Server thread/INFO]: Silvention issued server command: //undo
-[17:27:19] [Server thread/INFO]: subtora issued server command: //schem load creeper_grinder
-[17:27:26] [Server thread/INFO]: subtora issued server command: //schem load creeper_grider
-[17:27:26] [pool-5-thread-1/INFO]: subtora loaded C:\Users\Subtora\Desktop\Mod Server 2\plugins\WorldEdit\schematics\creeper_grider.schem
-[17:27:29] [Server thread/INFO]: subtora issued server command: //paste
-[17:27:51] [Async Chat Thread - #5/INFO]: <[0;31;22mSilvention[m> Oh wow[m
-[17:28:05] [Async Chat Thread - #5/INFO]: <[0;31;22msubtora[m> you have to load it with cats but look now[m
-[17:28:22] [Server thread/INFO]: subtora issued server command: //undo
-[17:28:28] [Async Chat Thread - #5/INFO]: <[0;31;22msubtora[m> wait haha[m
-[17:28:31] [Server thread/INFO]: subtora issued server command: //paste
-[17:28:48] [Server thread/INFO]: subtora issued server command: /lagg
-[17:29:01] [Server thread/INFO]: Silvention issued server command: //undo
-[17:29:01] [Server thread/INFO]: Silvention issued server command: //undo
-[17:29:02] [Server thread/INFO]: Silvention issued server command: //undo
-[17:29:14] [Server thread/INFO]: Silvention issued server command: //undo
-[17:29:16] [Async Chat Thread - #5/INFO]: <[0;31;22msubtora[m> hmm it should be spawning creepers[m
-[17:29:35] [Server thread/INFO]: subtora issued server command: //fill minecraft:water
-[17:29:41] [Server thread/INFO]: Silvention issued server command: /top
-[17:29:46] [Server thread/WARN]: Silvention moved too quickly! 3.400391165647193,-28.707928793545108,0.3284312282337396
-[17:29:48] [Server thread/INFO]: subtora issued server command: //fill minecraft:water 100 100
-[17:29:53] [Server thread/INFO]: subtora issued server command: //undo
-[17:29:59] [Server thread/INFO]: subtora issued server command: //fill minecraft:water 100 100
-[17:29:59] [Server thread/INFO]: Silvention issued server command: //fixwater 50
-[17:30:04] [Server thread/INFO]: Silvention issued server command: //fixwater 50
-[17:30:09] [Server thread/INFO]: subtora issued server command: //undo
-[17:30:09] [Server thread/WARN]: subtora moved too quickly! 0.06973564981160507,0.0,-12.97519812583073
-[17:30:19] [Server thread/INFO]: Silvention lost connection: Disconnected
-[17:30:19] [Server thread/INFO]: Silvention left the game
-[17:30:22] [Server thread/INFO]: subtora issued server command: //fill minecraft:water 300 300
-[17:31:12] [Server thread/INFO]: subtora issued server command: /top
-[17:31:12] [Server thread/WARN]: subtora moved too quickly! -0.36842497579095834,66.24219356991208,-0.46466063638581545
-[17:31:12] [Server thread/WARN]: subtora moved too quickly! -0.36842497579095834,66.24219356991208,-0.46466063638581545
-[17:31:12] [Server thread/WARN]: subtora moved too quickly! -0.36842497579095834,66.24219356991208,-0.46466063638581545
-[17:31:12] [Server thread/WARN]: subtora moved too quickly! -0.36842497579095834,66.24219356991208,-0.46466063638581545
-[17:31:12] [Server thread/WARN]: subtora moved too quickly! -0.36842497579095834,66.24219356991208,-0.46466063638581545
-[17:31:12] [Server thread/WARN]: subtora moved too quickly! -0.36842497579095834,66.24219356991208,-0.46466063638581545
-[17:31:22] [Server thread/INFO]: subtora issued server command: //set air
-[17:31:39] [Server thread/INFO]: subtora issued server command: /god
-[17:31:43] [Server thread/INFO]: subtora issued server command: /survival
-[17:32:03] [User Authenticator #4/INFO]: UUID of player Silvention is 442c52f2-f02a-47bf-ae55-5f9ea766c597
-[17:32:03] [Server thread/INFO]: Silvention[/208.82.235.2:51964] logged in with entity id 34241 at ([world]646.6350395403751, 88.57815971660092, 503.6620232289771)
-[17:32:31] [Async Chat Thread - #6/INFO]: <[0;31;22msubtora[m> looks good![m
-[17:32:35] [Server thread/INFO]: subtora issued server command: /creative
-[17:35:44] [Server thread/INFO]: Silvention issued server command: /fixwater 5
-[17:36:05] [Server thread/INFO]: Silvention issued server command: /speed 10
-[17:36:12] [Server thread/INFO]: Silvention issued server command: /speed 100
-[17:38:25] [Async Chat Thread - #7/INFO]: <[0;31;22mSilvention[m> I gotta go for a bit I'll probably be back later[m
-[17:38:27] [Async Chat Thread - #7/INFO]: <[0;31;22mSilvention[m> Bye![m
-[17:38:28] [Server thread/INFO]: Silvention lost connection: Disconnected
-[17:38:28] [Server thread/INFO]: Silvention left the game
-[17:38:57] [Async Chat Thread - #7/INFO]: <[0;31;22msubtora[m> time set day[m
-[17:39:01] [Server thread/INFO]: subtora issued server command: /time set day
-[17:39:11] [Server thread/INFO]: subtora issued server command: /spectator
-[17:41:21] [Server thread/INFO]: subtora issued server command: /home
-[17:41:21] [Server thread/WARN]: subtora moved too quickly! -269.0775747791686,-9.403947788813497,-289.63088527381933
-[17:42:38] [Server thread/INFO]: subtora issued server command: /creative
-[17:43:21] [Server thread/INFO]: subtora issued server command: /save-all
-[17:43:25] [Server thread/INFO]: [subtora: Saved the game]
+[22:24:15] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[22:24:15] [Server thread/INFO]: Loading properties
+[22:24:16] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-5e4e7f3-2349feb (MC: 1.14.3) (Implementing API version 1.14.3-R0.1-SNAPSHOT)
+[22:24:16] [Server thread/INFO]: Debug logging is disabled
+[22:24:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:24:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:24:16] [Server thread/INFO]: Default game type: SURVIVAL
+[22:24:16] [Server thread/INFO]: Generating keypair
+[22:24:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:24:16] [Server thread/INFO]: Using default channel type
+[22:24:19] [Server thread/WARN]: Plugin UltimateAntiCheat v0.1.6 does not specify an api-version.
+[22:24:19] [Server thread/WARN]: Plugin SilkSpawners v5.0.2 does not specify an api-version.
+[22:24:19] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.0.6
+[22:24:19] [Server thread/INFO]: [ChopTree2] Loading ChopTree2 v1.14.2-2.4.3
+[22:24:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0;214af8a
+[22:24:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4658cc92]
+[22:24:20] [Server thread/INFO]: [UAC] Loading UltimateAntiCheat v0.1.6
+[22:24:20] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[22:24:20] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v5.0.2
+[22:24:20] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.14.0
+[22:24:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0;214af8a
+[22:24:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:24:20] [Server thread/WARN]: [WorldEdit] ====================================================
+[22:24:20] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[22:24:20] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[22:24:20] [Server thread/WARN]: [WorldEdit]   
+[22:24:20] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[22:24:20] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[22:24:20] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[22:24:20] [Server thread/WARN]: [WorldEdit]   
+[22:24:20] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[22:24:20] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[22:24:20] [Server thread/WARN]: [WorldEdit]   
+[22:24:20] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[22:24:20] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[22:24:20] [Server thread/WARN]: [WorldEdit]   
+[22:24:20] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[22:24:20] [Server thread/WARN]: [WorldEdit] ====================================================
+[22:24:20] [Server thread/INFO]: Preparing level "world"
+[22:24:20] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[22:24:20] [Server thread/INFO]: Loaded 6 recipes
+[22:24:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:24:20] [Server thread/INFO]: View Distance: 30
+[22:24:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:24:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:24:20] [Server thread/INFO]: Mob Spawn Range: 6
+[22:24:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:24:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:24:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:24:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:24:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[22:24:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:24:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:24:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:24:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:24:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:24:20] [Server thread/INFO]: Max TNT Explosions: 100
+[22:24:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:24:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2 as the Bukkit adapter
+[22:24:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:24:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:24:21] [Server thread/INFO]: View Distance: 30
+[22:24:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:24:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:24:21] [Server thread/INFO]: Mob Spawn Range: 6
+[22:24:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:24:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:24:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:24:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[22:24:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:24:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:24:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:24:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:24:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:24:21] [Server thread/INFO]: Max TNT Explosions: 100
+[22:24:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:24:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:24:21] [Server thread/INFO]: View Distance: 30
+[22:24:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:24:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:24:21] [Server thread/INFO]: Mob Spawn Range: 6
+[22:24:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:24:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:24:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:24:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:24:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[22:24:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:24:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:24:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:24:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:24:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:24:21] [Server thread/INFO]: Max TNT Explosions: 100
+[22:24:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:24:21] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[22:24:22] [Server thread/INFO]: Preparing spawn area: 0%
+[22:24:22] [Server thread/INFO]: Preparing spawn area: 0%
+[22:24:22] [Server-Worker-6/INFO]: Preparing spawn area: 83%
+[22:24:22] [Server thread/INFO]: Time elapsed: 1210 ms
+[22:24:22] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[22:24:23] [Server thread/INFO]: Preparing spawn area: 0%
+[22:24:23] [Server thread/INFO]: Preparing spawn area: 0%
+[22:24:23] [Server thread/INFO]: Preparing spawn area: 99%
+[22:24:23] [Server thread/INFO]: Time elapsed: 1012 ms
+[22:24:23] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[22:24:23] [Server thread/INFO]: Preparing spawn area: 0%
+[22:24:24] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[22:24:24] [Server thread/INFO]: Time elapsed: 723 ms
+[22:24:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.0.6
+[22:24:24] [Server thread/INFO]: [ClearLag] Loading modules...
+[22:24:24] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[22:24:24] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[22:24:24] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[22:24:24] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.14]...
+[22:24:24] [Server thread/INFO]: [ChopTree2] Enabling ChopTree2 v1.14.2-2.4.3
+[22:24:24] [Server thread/INFO]: [UAC] Enabling UltimateAntiCheat v0.1.6
+[22:24:24] [Server thread/INFO]: [UAC] UAC was enabled...
+[22:24:24] [Server thread/INFO]: [UAC] Registering events...
+[22:24:24] [Server thread/INFO]: [UAC] Submitting stats to mcstats.org...
+[22:24:24] [Server thread/INFO]: [UAC] Registering Commands
+[22:24:24] [Server thread/INFO]: [UAC] Done with Startup!
+[22:24:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[22:24:24] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[22:24:24] [Server thread/INFO]: No kits found to migrate.
+[22:24:24] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[22:24:24] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[22:24:24] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[22:24:24] [Server thread/INFO]: Loaded 20977 items from items.json.
+[22:24:24] [Server thread/INFO]: Using locale en_US
+[22:24:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:24:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:24:24] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:24:24] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v5.0.2
+[22:24:24] [Thread-9/INFO]: [ClearLag] No updates found!
+[22:24:24] [Server thread/INFO]: [SilkSpawners] This version of the plugin is NOT compatible with your Minecraft version!
+[22:24:24] [Server thread/INFO]: [SilkSpawners] Please check your versions to make sure they match!
+[22:24:24] [Server thread/INFO]: [SilkSpawners] Disabling now!
+[22:24:24] [Server thread/INFO]: [SilkSpawners] Compatible versions are: [v1_5_R1, v1_5_R2, v1_5_R3, v1_6_R1, v1_6_R2, v1_6_R3, v1_7_R1, v1_7_R2, v1_7_R3, v1_7_R4, v1_8_R1, v1_8_R2, v1_8_R3, v1_9_R1, v1_9_R2, v1_10_R1, v1_11_R1, v1_12_R1]
+[22:24:24] [Server thread/INFO]: [SilkSpawners] Your version is: v1_14_R1
+[22:24:24] [Server thread/INFO]: [SilkSpawners] You can disable this check by setting testMCVersion to false in the config!
+[22:24:24] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.14.0
+[22:24:25] [Server thread/INFO]: [VeinMiner] Registering events
+[22:24:25] [Server thread/INFO]: [VeinMiner] Registering commands
+[22:24:25] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[22:24:25] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[22:24:25] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[22:24:25] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[22:24:25] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[22:24:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:24:25] [ForkJoinPool.commonPool-worker-9/INFO]: [VeinMiner] Your version of VeinMiner (1.14.0) is up to date!
+[22:24:25] [Server thread/INFO]: Done (4.609s)! For help, type "help"
+[22:25:04] [User Authenticator #1/INFO]: UUID of player subtora is a4aa75f4-b844-444a-a24a-ae909cf2342a
+[22:25:04] [Server thread/INFO]: subtora[/192.168.95.1:55901] logged in with entity id 337 at ([world]781.8602566916963, 91.80354492607455, 601.7462131013646)
+[22:25:11] [Server thread/WARN]: subtora moved too quickly! -30.795108775381095,-9.186974099660972,-20.298739341061378
+[22:29:29] [Server thread/WARN]: subtora moved too quickly! 15.867503324082236,1.0718222149623102,-4.934444071254006
+[22:35:50] [Server thread/INFO]: subtora issued server command: /save-all
+[22:35:50] [Server thread/INFO]: [subtora: Saved the game]
+[22:36:27] [Server thread/INFO]: subtora issued server command: /save-all
+[22:36:27] [Server thread/INFO]: [subtora: Saved the game]
+[22:36:43] [Server thread/INFO]: subtora lost connection: Disconnected
+[22:36:43] [Server thread/INFO]: subtora left the game

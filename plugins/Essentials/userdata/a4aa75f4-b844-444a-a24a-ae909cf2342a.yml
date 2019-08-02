@@ -1,8 +1,8 @@
 lastAccountName: subtora
 timestamps:
-  login: 1564697391901
+  login: 1564719905262
   lastteleport: 1564702881386
-  logout: 1564697172945
+  logout: 1564720603548
 ipAddress: 192.168.95.1
 lastlocation:
   world: world
@@ -22,9 +22,9 @@ homes:
 afk: false
 logoutlocation:
   world: world
-  x: 2938.968430888869
-  y: 82.24178841451243
-  z: 565.7284562860299
-  yaw: -299.09036
-  pitch: 14.399866
+  x: 665.5147695768844
+  y: 63.0
+  z: 532.6884493508054
+  yaw: 190.39012
+  pitch: 2.7000854
 godmode: true
